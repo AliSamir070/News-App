@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_graph"
+    app:startDestination="@id/homeNews">
+    <fragment
+        android:id="@+id/homeNews"
+        android:name="com.alisamir.newsapp.ui.home.HomeNewsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_home_news" >
+        <action
+            android:id="@+id/action_homeNews_to_descriptionNews"
+            app:destination="@id/descriptionNews" />
+    </fragment>
+    <fragment
+        android:id="@+id/descriptionNews"
+        android:name="com.alisamir.newsapp.ui.description.DescriptionNewsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_description_news" >
+        <argument
+            android:name="article"
+            app:argType="com.alisamir.newsapp.pojo.Article" />
+    </fragment>
+</navigation>

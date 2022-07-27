@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/item_back"
+    android:insetRight="@dimen/_5sdp"
+    android:insetLeft="@dimen/_5sdp"/>
+
