@@ -63,8 +63,12 @@ class DescriptionNewsFragment : Fragment() {
             }
         }
         binding.description.text = article.description?:"No description"
-        binding.link.text = getString(R.string.link,Html.fromHtml(article.url,FROM_HTML_MODE_LEGACY))
+        binding.link.text = getString(R.string.link,article.url?:"")
         binding.title.text = article.title
+        binding.link.setOnClickListener {
+            val actions = DescriptionNewsFragmentDirections.actionDescriptionNewsToSiteViewFragment(article.url?:"")
+            findNavController().navigate(actions)
+        }
 
     }
 

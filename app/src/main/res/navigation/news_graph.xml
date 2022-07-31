@@ -21,5 +21,16 @@
         <argument
             android:name="article"
             app:argType="com.alisamir.newsapp.pojo.Article" />
+        <action
+            android:id="@+id/action_descriptionNews_to_siteViewFragment"
+            app:destination="@id/siteViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/siteViewFragment"
+        android:name="com.alisamir.newsapp.ui.SiteViewFragment"
+        tools:layout="@layout/fragment_site_view">
+        <argument
+            android:name="link"
+            app:argType="string" />
     </fragment>
 </navigation>
