@@ -12,6 +12,8 @@
         <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/drawable/background.xml" value="0.138" />
         <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/drawable/broken_image.xml" value="0.158" />
         <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/drawable/ic_back.xml" value="0.11" />
+        <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/drawable/ic_baseline_dark_mode_24.xml" value="0.1635" />
+        <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/drawable/ic_baseline_light_mode_24.xml" value="0.1635" />
         <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/drawable/ic_baseline_sports_soccer_24.xml" value="0.127" />
         <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/drawable/ic_entertainment.xml" value="0.158" />
         <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/drawable/ic_hamburger.xml" value="0.158" />
@@ -41,6 +43,8 @@
         <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/layout/fragment_sports.xml" value="0.1984375" />
         <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/layout/fragment_technology.xml" value="0.14947916666666666" />
         <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/layout/fragment_trending.xml" value="0.1984375" />
+        <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/layout/theme_bottom_sheet_layout.xml" value="0.2" />
+        <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.155" />
         <entry key="..\:/Android/Projects/NewsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.155" />
       </map>

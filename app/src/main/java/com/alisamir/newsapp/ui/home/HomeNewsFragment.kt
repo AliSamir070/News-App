@@ -1,6 +1,7 @@
 package com.alisamir.newsapp.ui.home
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -45,6 +46,7 @@ class HomeNewsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        Log.d("TAG", "onViewCreate: ")
         (activity as AppCompatActivity).setSupportActionBar(binding.toolbar)
       /*  binding.button.setOnClickListener {
             findNavController().navigate(HomeNewsFragmentDirections.actionHomeNewsToDescriptionNews())
@@ -62,13 +64,13 @@ class HomeNewsFragment : Fragment() {
 
     private fun makeCategorizedContainer(){
         val titleTabsList = listOf(
-            "Business",
-            "Health",
-            "Politics",
-            "Sports",
-            "Technology",
-            "Science",
-            "Entertainment"
+            getString(R.string.business),
+            getString(R.string.health),
+            getString(R.string.politics),
+            getString(R.string.sports),
+            getString(R.string.technology),
+            getString(R.string.science),
+            getString(R.string.entertainment)
         )
         val iconsTabsList = listOf(
             R.drawable.ic_business,

@@ -5,6 +5,7 @@
     android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".ui.home.categorized.sports.SportsFragment">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -17,5 +18,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:itemCount="5"
+
         tools:listitem="@layout/categorized_item" />
 </androidx.constraintlayout.widget.ConstraintLayout>

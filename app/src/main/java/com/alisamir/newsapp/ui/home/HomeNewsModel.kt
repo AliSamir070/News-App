@@ -1,5 +1,6 @@
 package com.alisamir.newsapp.ui.home
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -15,6 +16,13 @@ class HomeNewsModel:ViewModel() {
     get() = _breakingNewsArticles
     init {
         getBreakingNews()
+        Log.d("TAG", "onAttached: ")
+    }
+
+    override fun onCleared() {
+        Log.d("TAG", "Cleared: ")
+        super.onCleared()
+
     }
     fun getBreakingNews(){
         viewModelScope.launch {

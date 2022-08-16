@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/homeNews"
         android:name="com.alisamir.newsapp.ui.home.HomeNewsFragment"
-        android:label="News"
+        android:label="@string/news"
         tools:layout="@layout/fragment_home_news" >
         <action
             android:id="@+id/action_homeNews_to_descriptionNews"

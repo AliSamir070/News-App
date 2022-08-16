@@ -1,22 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">News App</string>
+    <string name="app_name">تطبيق اخبار</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="dummy">gistration link :https://next-eg.com/wazeefa-tech/Dear Candidate, Thank you for your interest in the Oracle Job opportunities through Wazeefa Tech Initiative – Phase IVNext Academy would like to invite you to attBased on our conversation; kindly find the attached file the below registration link :https://next-eg.com/wazeefa-tech/Dear Candidate, Thank you for your interest in the Oracle Job opportunities through Wazeefa Tech Initiative – Phase IVNext Academy would like to invite you to attBased on our conversation; kindly find the attached file the below registration link :https://next-eg.com/wazeefa-tech/Dear Candidate, Thank you for your interest in the Oracle Job opportunities through Wazeefa Tech Initiative – Phase IVNext Academy would like to invite you to attBased on our conversation; kindly find the attached file the below registration link :https://next-eg.com/wazeefa-tech/Dear Candidate, Thank you for your interest in the Oracle Job opportunities through Wazeefa Tech Initiative – Phase IVNext Academy would like to invite you to attend to the head office for the first round of selection process which includes (English Test, IQ Test, and HR Interview) Based on our conversation; kindly find the attached file the below registration link :https://next-eg.com/wazeefa-tech/Dear Candidate, Thank you for your interest in the Oracle Job opportunities through Wazeefa Tech Initiative – Phase IVNext Academy would like to invite you to attBased on our conversation; kindly find the attached file the below registration link :https://next-eg.com/wazeefa-tech/Dear Candidate, Thank you for your interest in the Oracle Job opportunities through Wazeefa Tech Initiative – Phase IVNext Academy would like to invite you to attBased on our conversation; kindly find the attached file the below registration link :https://next-eg.com/wazeefa-tech/Dear Candidate, Thank you for your interest in the Oracle Job opportunities through Wazeefa Tech Initiative – Phase IVNext Academy would like to invite you to attBased on our conversation; kindly find the attached file the below registration link :https://next-eg.com/wazeefa-tech/Dear Candidate, Thank you for your interest in the Oracle Job opportunities through Wazeefa Tech Initiative – Phase IVNext Academy would like to invite you to attBased on our conversation; kindly find the attached file the below registration link :https://next-eg.com/wazeefa-tech/Dear Candidate, Thank you for your interest in the Oracle Job opportunities through Wazeefa Tech Initiative – Phase IVNext Academy would like to invite you to attend to the head office for the first round of selection process which includes (English Test, IQ Test, and HR Interview)</string>
-    <string name="title">Title</string>
-    <string name="news">News</string>
-    <string name="time">time</string>
-    <string name="trending">Trending</string>
-    <string name="health">Health</string>
-    <string name="politics">Politics</string>
-    <string name="sports">Sports</string>
-    <string name="author">author</string>
-    <string name="business">Business</string>
-    <string name="link">For more visit: %s</string>
-    <string name="technology">Technology</string>
-    <string name="science">Science</string>
-    <string name="entertainment">Entertainment</string>
-    <string name="mode">Mode</string>
-    <string name="light">light</string>
-    <string name="night">night</string>
+    <string name="title">عنوان</string>
+    <string name="news">أخبار</string>
+    <string name="time">وقت</string>
+    <string name="trending">حديث</string>
+    <string name="health">صحة</string>
+    <string name="politics">سياسة</string>
+    <string name="sports">رياضة</string>
+    <string name="author">مؤلف</string>
+    <string name="business">اقتصاد</string>
+    <string name="link">%s :للمزيد زور</string>
+    <string name="technology">تكنولوجيا</string>
+    <string name="science">علوم</string>
+    <string name="entertainment">ترفيه</string>
+    <string name="mode">شكل</string>
+    <string name="light">نهار</string>
+    <string name="night">مظلم</string>
 </resources>
